@@ -15,6 +15,6 @@ class MainApp : Application() {
         super.onCreate()
         Timber.plant(Timber.DebugTree())
         geosites = GeositeJSONStore(applicationContext)
-        i("Placemark started")
+        i("Geosite started")
     }
 }
