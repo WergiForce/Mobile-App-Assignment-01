@@ -42,7 +42,16 @@ class GeositeJSONStore(private val context: Context) : GeositeStore {
 
 
     override fun update(geosite: GeositeModel) {
-        // todo
+        var foundGeosite: GeositeModel? = geosites.find { p -> p.id == geosite.id }
+        if (foundGeosite != null) {
+            foundGeosite.title = geosite.title
+            foundGeosite.description = geosite.description
+            foundGeosite.image = geosite.image
+            foundGeosite.lat = geosite.lat
+            foundGeosite.lng = geosite.lng
+            foundGeosite.zoom = geosite.zoom
+            serialize()
+        }
     }
 
     private fun serialize() {
