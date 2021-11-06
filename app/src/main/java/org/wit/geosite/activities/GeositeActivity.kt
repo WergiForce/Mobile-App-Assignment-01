@@ -1,6 +1,5 @@
 package org.wit.geosite.activities
 
-
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -27,7 +26,6 @@ class GeositeActivity : AppCompatActivity() {
     var geosite = GeositeModel()
     lateinit var app : MainApp
     var image: Uri = Uri.EMPTY
-    // var location = Location(53.070983524081065, -9.354122575168192, 15f)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
