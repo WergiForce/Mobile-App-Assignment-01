@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Geosite</string>
+    <string name="button_addGeosite">Add Geosite</string>
+    <string name="hint_geositeTitle">Geosite Title</string>
+    <string name="hint_geositeDescription">Description </string>
+    <string name="menu_addGeosite">Add</string>
+    <string name="menu_cancelGeosite">Cancel</string>
+    <string name="enter_geosite_title"> Please enter a Geosite Title </string>
+    <string name="save_geosite"> Save Geosite </string>
+    <string name="button_addImage"> Add Image </string>
+    <string name="select_geosite_image">Select geosite image</string>
+    <string name="change_geosite_image">Change geosite image</string>
+    <string name="button_location">Set Location</string>
+    <string name="title_activity_map">Map</string>
+</resources>
